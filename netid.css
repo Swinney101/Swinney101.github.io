@@ -1,0 +1,106 @@
+﻿header, nav, main, footer { display:block} /*CSS Style rule for backwards compatability for older browsers*/
+
+.mainhd {
+    background: #feffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Poor Richard', Arial, sans-serif;
+    padding: 10px; /*Psuedo headline paper concept...need an image in here floated left or right*/
+    border-bottom: 5px solid #000000; /*Delineation between the top of the page and the two column layout */
+    border-top: 5px solid #000000;
+    height: 150px;
+    position: fixed;
+    width: 1920px;
+}
+
+body
+{ margin: 0;
+  font-family: 'Poor Richard', Arial, sans-serif;
+  background: #feffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+
+}
+/*Main body content*/
+main {
+       background:linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+       background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+       background: #e1ffff; /* Old browsers */
+       background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 );
+       padding: 10px;
+       display:block;
+       overflow:auto;
+}
+
+/*Primary header within the body formatting*/
+h2 { padding-top: 200px;
+     font-size: 250%;
+}
+/*Secondary header formatting*/
+h3 {
+    padding:10px;
+    font-size: 200%;
+}
+/*paragraph formatting hopefully making it easier to read on your browser window with the comibination of .wrap class*/
+p {
+   padding: 10px;
+   font-size: 150%;
+   width: 90%;
+
+}
+
+
+
+/*GLOBAL FOOTER FORMATTING----------------------------------------------------------------------------------------------------------*/
+
+/*Global Footer attributes*/
+footer { font-family: Arial, sans-serif;
+         text-align: center;
+         border-top: 3px solid #000000;
+         font-weight: bold;
+         padding: 10px;
+         background: #feffff; /* Old browsers */
+         background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6-15 */
+         background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+         background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+}
+
+/*footer URL Pseudo format Code*/
+footer a:link {color:#000000; }
+
+footer a:visited {color:#000000; }
+
+footer a:hover { color:#00005D}
+
+
+
+/*EET Coordinator Announcements --------------------------------------------------------------------------------------------------------------*/
+
+article { font-family:'Poor Richard', Arial, sans-serif;
+          font-size:large;
+          width: 95%;
+          padding:10px;
+}
+
+
+header {font-family: 'Poor Richard', Arial, sans-serif;
+        padding: 10px;
+        border-bottom: 5px solid #000000;
+        font-size: 200%;
+}
+
+.blogp { font-family: 'Poor Richard', Arial, sans-serif;
+    font-size: 150%;
+    border: solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
